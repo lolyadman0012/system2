@@ -1,17 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const ms = require("ms");
-const fs = require('fs');
-const ytdl = require('ytdl-core');
-const moment = require('moment');
-const request = require('request');
-const getYoutubeID = require('get-youtube-id');
-const fetchVideoInfo = require('youtube-info');
-const dateFormat = require('dateformat');
-const Eris = require("eris");
-const canvas = require('canvas')
-const jimp = require('jimp')
-const h = require('h')
+
 
 
 client.on('ready', () => {
